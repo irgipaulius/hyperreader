@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "allowJs": true,
+      "target": "es5",
+      "esModuleInterop": true,
+      "downlevelIteration": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "checkJs": true,
+      "types": ["node"],
+      "lib": ["es6"],
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowUnreachableCode": false,
+      "resolveJsonModule": true,
+      "declaration": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.js", "declarations.d.ts"],
+    "exclude": ["node_modules", "dist", "<node_internals>/**"]
+  }
+  
